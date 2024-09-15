@@ -32,8 +32,11 @@ MAIL_LIST: The file containing the list of email addresses to send alerts to. De
 **Functions**
 
 usage(): Displays usage information and exits with code 1.
+
 log(): Initializes the log file with a timestamp.
+
 input_validation(): Validates the existence of the mail list file.
+
 monitor_disk_space(): Monitors the disk space of sda1 and sends an email alert if the free space is below the threshold.
 
 **Main Execution**
