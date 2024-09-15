@@ -5,7 +5,9 @@ disk_space_monitor.sh is a shell script designed to monitor the free space of a 
 **Features**
 
 Threshold Monitoring: Monitors the free space of disk sda1 and sends an alert if the free space is below the specified threshold.
+
 Email Alerts: Sends email notifications to a list of recipients when the disk space is low.
+
 Logging: Logs all actions and errors to a log file for auditing and troubleshooting.
 
 **Usage**
