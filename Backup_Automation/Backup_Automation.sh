@@ -25,7 +25,7 @@ usage() {
 EXIT_CODE=1
 
 log(){
-LOG_FILE="$log\ $0_`date +%Y%m%d_%H%M%S`.log"
+LOG_FILE="$log/$0_`date +%Y%m%d_%H%M%S`.log"
 }
 
 input_validation(){
